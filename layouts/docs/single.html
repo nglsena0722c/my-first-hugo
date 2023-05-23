@@ -32,6 +32,15 @@
 			</nav>
 			{{ end -}}
 			{{ .Content }}
+			<br/>
+			<script src="https://utteranc.es/client.js"
+        repo="nglsena0722c/my-first-hugo"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				{{ if .Site.Params.lastMod -}}
 					{{ partial "main/last-modified.html" . }}
